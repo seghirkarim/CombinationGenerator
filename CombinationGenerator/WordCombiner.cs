@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WordCombiner
+﻿namespace CombinationGenerator
 {
-    public static class CombinationGenerator
+    public static class WordCombiner
     {
         public static IEnumerable<string> GenerateCombinations(List<string> lines, int combinationLength)
         {

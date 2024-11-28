@@ -1,6 +1,4 @@
-﻿using WordCombiner;
-
-namespace CombinationGenerator
+﻿namespace CombinationGenerator
 {
     internal class Program
     {
@@ -8,7 +6,7 @@ namespace CombinationGenerator
         {
             var fileloc = Directory.GetCurrentDirectory() + @"/input.txt";
             var lines = File.ReadLines(fileloc).ToList();
-            var resultList = CombinationGenerator.GenerateCombinations(lines, 3);
+            var resultList = WordCombiner.GenerateCombinations(lines, 3);
 
             foreach (var combination in resultList)
             {

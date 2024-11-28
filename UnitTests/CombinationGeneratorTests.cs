@@ -1,6 +1,5 @@
+
 using CombinationGenerator;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using WordCombiner;
 
 namespace UnitTests
 {
@@ -21,7 +20,7 @@ namespace UnitTests
             var combinationLength = 3;
 
             //Act
-            var result = CombinationGenerator.GenerateCombinations(lines, combinationLength);
+            var result = WordCombiner.GenerateCombinations(lines, combinationLength);
 
             //Assert
             Assert.False(result.GroupBy(c => c).Any(c => c.Count() > 1));
@@ -45,7 +44,7 @@ namespace UnitTests
             var combinationLength = 4;
 
             //Act
-            var result = CombinationGenerator.GenerateCombinations(lines, combinationLength);
+            var result = WordCombiner.GenerateCombinations(lines, combinationLength);
 
             //Assert
             Assert.True(result.All(c => c.Replace("+", "").Length == combinationLength));

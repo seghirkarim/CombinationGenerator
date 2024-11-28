@@ -21,3 +21,23 @@ Treat this exercise as if you were writing production code; think unit tests, SO
 The solution must be stored in a git repo. After the repo is cloned, the application should be able to run with one command / script.
 
 Don't spend too much time on this.
+
+# Solution
+
+The out put of the app will be printed to the console and will be written to the output.exe file.
+
+## Usage
+
+To run the app execute following command
+
+<code>
+cd CombinationGenerator && dotnet run
+</code>
+
+## Unit tests
+
+To run the unit tests execute following command
+
+<code>
+cd CombinationGenerator && dotnet test
+</code>

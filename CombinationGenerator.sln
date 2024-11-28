@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationGenerator", "6LetterWordCombiner\CombinationGenerator.csproj", "{D791B1A8-0DDB-47CB-BABE-39AB34E6E313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationGenerator", "CombinationGenerator\CombinationGenerator.csproj", "{D791B1A8-0DDB-47CB-BABE-39AB34E6E313}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{C5D3C8AB-1F5A-48F8-A44E-34E455521C82}"
 EndProject
