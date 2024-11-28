@@ -6,7 +6,7 @@ namespace UnitTests
     public class CombinationGeneratorTests
     {
         [Fact]
-        public async void GenerateCombinations_ShouldNotIncludeDuplicates()
+        public void GenerateCombinations_ShouldNotIncludeDuplicates()
 
         {
             //Arrange
@@ -23,11 +23,11 @@ namespace UnitTests
             var result = WordCombiner.GenerateCombinations(lines, combinationLength);
 
             //Assert
-            Assert.False(result.GroupBy(c => c).Any(c => c.Count() > 1));
+            Assert.DoesNotContain(result.GroupBy(c => c), c => c.Count() > 1);
         }
 
         [Fact]
-        public async void GenerateCombinations_CombinationsShouldHaveCorrectLength()
+        public void GenerateCombinations_CombinationsShouldHaveCorrectLength()
 
         {
             //Arrange

@@ -9,8 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\Unit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5609B42-2DCF-45CD-A16E-17D48966E702}"
 	ProjectSection(SolutionItems) = preProject
-		CombinationGenerator\input.txt = CombinationGenerator\input.txt
-		CombinationGenerator\output.txt = CombinationGenerator\output.txt
+		input.txt = input.txt
+		output.txt = output.txt
 		README.md = README.md
 	EndProjectSection
 EndProject

@@ -30,14 +30,15 @@ The out put of the app will be printed to the console and will be written to the
 
 To run the app execute following command
 
-<code>
-cd CombinationGenerator && dotnet run
-</code>
+```sh
+dotnet run --project .\CombinationGenerator\CombinationGenerator.csproj
+```
+
 
 ## Unit tests
 
 To run the unit tests execute following command
 
-<code>
-cd CombinationGenerator && dotnet test
-</code>
+```sh
+dotnet test .\UnitTests\UnitTests.csproj
+```
