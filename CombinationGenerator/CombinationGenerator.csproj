@@ -13,13 +13,4 @@
     <PackageReference Include="xunit.core" Version="2.9.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="input.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="output.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
